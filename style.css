@@ -1,0 +1,97 @@
+body {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+    font-family: "Comic Sans", sans-serif;
+    font-size: 40px;
+    color: rgb(5, 51, 51)
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    height: 200px
+}
+
+.middle {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.left,
+.right {
+    flex: 0 0 200px;
+}
+
+.primary {
+    height: 250px;
+    font-size: medium;
+}
+
+.secondary {
+    height: 300px;
+    font-size: medium;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery div:nth-child(-n+3) {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery div:nth-child(n+3) {
+    flex-basis: 25%;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    ;
+}
+
+figure img {
+    width: 150px;
+    border: none;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+}
+
+figcaption a {
+    display: block;
+}
+
+footer {
+    margin-top: auto;
+    bottom: 0;
+    height: 200px;
+    background-image: url("images/shoes.jpg");
+    background-repeat: repeat-x;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+
+.bottom {
+    bottom: 0;
+}

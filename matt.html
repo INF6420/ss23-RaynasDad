@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Archibald Family Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <header>
-    <nav>
-        <img src="images/family-crest.jpg" alt="Archibald Family crest">
-        <img src="images/may-the-fork-be-with-you.jpg" alt="picture of Matt with Yoda on his shoulder, holding up a fork that says 'may the fork be with you'">
+    <header>
+        <nav>
+            <div class="left">
+                <img src="images/family-crest.jpg" alt="Archibald Family crest">
+            </div>
+            <div class="middle">
+                <figure>
+                    <img src="images/may-the-fork-be-with-you.jpg"
+                        alt="picture of Matt with Yoda on his shoulder, holding up a fork that says 'may the fork be with you'">
+                    <figcaption>Matt</figcaption>
+                </figure>
+            </div>
+            <div class="right" id="menu">
                 <ul>
-            <li><a href="index.html">Main</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-   </header>
-   <main>
-    <div>
-        <ul>
-            <li>
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="gallery">
+        <div class="primary">
+            <figure>
                 <img src="images/WSU.png" alt="Wayne State logo">
-                <a href="mlis.html">MLIS</a>
-            </li>
-            <li>
+
+                <figcaption><a href="mlis.html">MLIS</a> Matt is working on his MLIS.</figcaption>
+            </figure>
+        </div>
+        <div class="primary">
+            <figure>
                 <img src="images/mainlibrary_woodmere2.png" alt="Traverse Area District Library">
-                <a href="library.html">Library</a>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <li>
-                <img src="images/singing-at-Barns.jpg" alt="picture of Matt holding a guitar, singing at a microphone with Rayna and Jenn">
-                <a href="music.html">Music</a>
-            </li>
-            <li>
+
+                <figcaption><a href="library.html">Library</a> Matt works at the Traverse Area District Library.
+                </figcaption>
+            </figure>
+        </div>
+        <div class="secondary">
+            <figure>
+                <img src="images/singing-at-Barns.jpg"
+                    alt="picture of Matt holding a guitar, singing at a microphone with Rayna and Jenn">
+
+                <figcaption><a href="music.html">Music</a> Matt likes to sing and play guitar.</figcaption>
+            </figure>
+        </div>
+        <div class="secondary">
+            <figure>
                 <img src="images/magaldi.jpg" alt="Matt in costume, with a girl on his lap">
-                <a href="theatre.html">Theatre</a>
-            </li>
-            <li>
+
+                <figcaption><a href="theatre.html">Theatre</a> Matt enjoys participating in community theatre.
+                </figcaption>
+            </figure>
+        </div>
+        <div class="secondary">
+            <figure>
                 <img src="images/Diner.jpg" alt="picture of Archie's Diner">
-                <a href="diner.html">Diner</a>
-            </li>
-        </ul>
-    </div>
-   </main>
-   <footer>
-    <img src="images/shoes.jpg" alt="temporary footer image">
-   </footer>
+
+                <figcaption><a href="diner.html">Diner</a> Matt and Jenn also own a diner in the UP.</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer class="bottom">
+        <p>This is some kind of footer information, with a cool background image.</p>
+    </footer>
 </body>
+
 </html>
