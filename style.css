@@ -95,3 +95,51 @@ footer {
 .bottom {
     bottom: 0;
 }
+
+form {
+    width: 50%;
+    margin: 3em auto;
+}
+label {
+    display: block;
+    font-weight: 500;
+}
+.form-input {
+    border: 3px solid rgb(5, 51, 51);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+.form-input:focus {
+    outline: none;
+    border: 4px solid rgb(5, 51, 51);
+}
+[type="submit"] {
+    background: turquoise;
+    color: teal;
+    width: 50%;
+    justify-items: center;
+    font-size: 1.25em;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 0;
+    padding: .25em;
+}
+[type="submit"]:hover,
+[type="submit"]:focus {
+    background: rgb(5, 51, 51);
+}
+textarea {
+    resize: none;
+}
+.error {
+    border-color: maroon;
+}
+.error-message {
+    color: maroon;
+    font-size: .75em;
+    margin: -.5em 0 1em;
+}
