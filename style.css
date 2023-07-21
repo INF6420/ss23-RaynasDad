@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(115, 207, 207);
+    background-color: teal;
     display: flex;
     flex-direction: column;
     min-height: 120vh;
@@ -38,13 +38,11 @@ nav {
 
 .primary {
     height: 250px;
-    width: auto;
     font-size: medium;
 }
 
 .secondary {
     height: 300px;
-    width: auto;
     font-size: medium;
 }
 
@@ -73,7 +71,7 @@ figure {
 }
 
 figure img {
-    width: auto;
+    width: 150px;
     border: none;
     display: inline-block;
     height: 200px;
@@ -120,8 +118,8 @@ label {
     border: 4px solid rgb(5, 51, 51);
 }
 [type="submit"] {
-    background: rgb(0, 75, 75);
-    color: turquoise;
+    background: turquoise;
+    color: teal;
     width: 50%;
     justify-items: center;
     font-size: 1.25em;
